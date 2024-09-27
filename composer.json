@@ -1,0 +1,23 @@
+{
+    "name": "pc/app-salon_php_mvc_js_sass",
+    "description": "proyecto PHP8, MVC , SASS, SQL, GULP",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Efp0233",
+            "email": "145311259+Efp0233@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
